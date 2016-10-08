@@ -20,7 +20,7 @@ def kadane(A):
         if curr_sum > max_sum:
             max_sum = curr_sum
 
-    return max_sum,A[L:R+1]
+    return max_sum
 
 
 A = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
